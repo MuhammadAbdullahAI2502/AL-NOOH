@@ -68,13 +68,13 @@ export default function Footer({ lang }: FooterProps) {
               ))}
             </div>
             <div className="flex flex-col gap-3 text-sm">
-              <a href="tel:+971500000000" className="flex items-center gap-3 hover:text-brand-gold-400 transition-colors">
+              <a href="tel:+923209792921" className="flex items-center gap-3 hover:text-brand-gold-400 transition-colors">
                 <Phone className="w-4 h-4 text-brand-gold-400 shrink-0" />
-                +971 50 000 0000
+                +923209792921
               </a>
-              <a href="mailto:info@alnooh.com" className="flex items-center gap-3 hover:text-brand-gold-400 transition-colors">
+              <a href="mailto:yasiriqbal.thebest@gmail.com" className="flex items-center gap-3 hover:text-brand-gold-400 transition-colors">
                 <Mail className="w-4 h-4 text-brand-gold-400 shrink-0" />
-                info@alnooh.com
+                yasiriqbal.thebest@gmail.com
               </a>
               <span className="flex items-center gap-3 text-brand-cream/60">
                 <MapPin className="w-4 h-4 text-brand-gold-400 shrink-0" />
@@ -91,8 +91,8 @@ export default function Footer({ lang }: FooterProps) {
             <ul className="space-y-3 text-sm">
               {[
                 { l: isAr ? "الأبقار" : "Cows & Cattle", h: "/livestock" },
-                { l: isAr ? "الأغنام" : "Sheep", h: "/livestock" },
-                { l: isAr ? "الماعز" : "Goats / Bakra", h: "/livestock" },
+                { l: isAr ? "الأغنام" : "Sheeps", h: "/livestock" },
+                { l: isAr ? "الماعز" : "Goats", h: "/livestock" },
                 { l: isAr ? "العجول والجاموس" : "Calves & Buffalo", h: "/livestock" },
                 { l: isAr ? "لحوم حلال للمطاعم" : "Halal Meat for Restaurants", h: "/restaurants" },
               ].map((l) => (
