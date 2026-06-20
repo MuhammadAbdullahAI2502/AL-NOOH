@@ -28,7 +28,7 @@ export default function HomeCTA({ lang }: HomeCTAProps) {
         </p>
         <div className="flex flex-wrap justify-center gap-4">
           <a
-            href="https://wa.me/971500000000"
+            href="https://wa.me/923209792921"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center gap-2 px-7 py-4 bg-[#25D366] text-white font-semibold rounded-sm hover:bg-[#1fb855] transition"
