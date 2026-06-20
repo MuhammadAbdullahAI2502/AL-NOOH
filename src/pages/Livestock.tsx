@@ -173,7 +173,7 @@ export default function LivestockPage() {
                   ))}
                 </div>
                 <a
-                  href={`https://wa.me/971500000000?text=${encodeURIComponent(`I'm interested in ${item.name}`)}`}
+                  href={`https://wa.me/923209792921?text=${encodeURIComponent(`I'm interested in ${item.name}`)}`}
                   target="_blank"
                   rel="noopener noreferrer"
                   className="inline-flex items-center justify-center gap-2 w-full px-5 py-3 rounded-full bg-[#25D366] text-white font-semibold text-sm hover:bg-[#1fb855] transition"
