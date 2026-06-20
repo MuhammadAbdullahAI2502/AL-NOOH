@@ -30,8 +30,8 @@ export default function Contact({ lang }: ContactProps) {
     {
       icon: Phone,
       title: isAr ? "الهاتف" : "Phone",
-      value: "+971 50 000 0000",
-      link: "tel:+971500000000",
+      value: "+92 320 979 2921",
+      link: "tel:+923209792921",
     },
     {
       icon: Mail,
@@ -43,13 +43,13 @@ export default function Contact({ lang }: ContactProps) {
       icon: MapPin,
       title: isAr ? "العنوان" : "Address",
       value: isAr ? "دبي، الإمارات العربية المتحدة" : "Dubai, United Arab Emirates",
-      link: "https://wa.me/971500000000",
+      link: "https://wa.me/92 320 979 2921",
     },
     {
       icon: MessageSquare,
       title: isAr ? "واتسآب" : "WhatsApp",
-      value: "+971 50 000 0000",
-      link: "https://wa.me/971500000000",
+      value: "+92 320 979 2921",
+      link: "https://wa.me/92 320 979 2921",
     },
   ];
 
@@ -65,7 +65,7 @@ export default function Contact({ lang }: ContactProps) {
     const text = encodeURIComponent(
       `New Website Inquiry\n\nName: ${formData.name || "-"}\nBusiness Type: ${formData.businessType || "-"}\nCountry: ${formData.country || "-"}\nEmail: ${formData.email || "-"}\nPhone: ${formData.phone || "-"}\nProduct(s) Required: ${formData.product || "-"}\nQuantity: ${formData.quantity || "-"}\n\nMessage:\n${formData.message || "-"}`
     );
-    window.open(`https://wa.me/971500000000?text=${text}`, "_blank", "noopener,noreferrer");
+    window.open(`https://wa.me/923209792921?text=${text}`, "_blank", "noopener,noreferrer");
     setFormData({ name: "", businessType: "", country: "", email: "", phone: "", product: "", quantity: "", message: "" });
   };
 
@@ -216,7 +216,7 @@ export default function Contact({ lang }: ContactProps) {
                     onChange={handleChange}
                     required
                     className="w-full px-4 py-3 border border-brand-green-200 rounded-sm focus:outline-none focus:border-brand-gold-500 transition-colors"
-                    placeholder="+971 50 000 0000"
+                    placeholder="+92 320 979 2921"
                   />
                 </motion.div>
               </div>
