@@ -36,8 +36,8 @@ export default function Contact({ lang }: ContactProps) {
     {
       icon: Mail,
       title: isAr ? "البريد الإلكتروني" : "Email",
-      value: "info@alnooh.com",
-      link: "mailto:info@alnooh.com",
+      value: "yasiriqbal.thebest@gmail.com",
+      link: "mailto:yasiriqbal.thebest@gmail.com",
     },
     {
       icon: MapPin,
