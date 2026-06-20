@@ -90,7 +90,7 @@ export default function Navbar({ lang, setLang }: NavbarProps) {
           </button>
 
           <Link
-            to="/#contact"
+            to="/contact"
             className="hidden md:inline-flex items-center gap-2 px-5 py-2.5 bg-linear-to-r from-brand-gold-500 to-brand-gold-600 text-brand-green-950 text-sm font-semibold rounded-sm hover:from-brand-gold-400 hover:to-brand-gold-500 transition-all btn-shine tracking-wide"
           >
             {lang === "en" ? "Request Quote" : "عرض سعر"}
@@ -127,7 +127,7 @@ export default function Navbar({ lang, setLang }: NavbarProps) {
                 </Link>
               ))}
               <Link
-                to="/contact"
+                to="/#contact"
                 onClick={() => setOpen(false)}
                 className="mt-2 inline-flex items-center justify-center px-5 py-3 bg-brand-gold-500 text-brand-green-950 font-semibold text-sm rounded-sm"
               >
