@@ -127,7 +127,7 @@ export default function Navbar({ lang, setLang }: NavbarProps) {
                 </Link>
               ))}
               <Link
-                to="/#contact"
+                to="/contact"
                 onClick={() => setOpen(false)}
                 className="mt-2 inline-flex items-center justify-center px-5 py-3 bg-brand-gold-500 text-brand-green-950 font-semibold text-sm rounded-sm"
               >
