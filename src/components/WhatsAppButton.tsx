@@ -72,7 +72,7 @@ export default function WhatsAppButton() {
               </div>
               <div className="text-[10px] text-brand-ink-700/50 mb-3 text-right">Just now</div>
               <a
-                href="https://wa.me/971500000000?text=Hello%20Al%20Nooh%20Livestock%2C%20I'd%20like%20a%20quote."
+                href="https://wa.me/923209792921?text=Hello%20Al%20Nooh%20Livestock%2C%20I'd%20like%20a%20quote."
                 target="_blank"
                 rel="noopener noreferrer"
                 className="block w-full text-center py-3 bg-[#25D366] hover:bg-[#1fb855] text-white font-semibold rounded-lg text-sm transition-colors"
