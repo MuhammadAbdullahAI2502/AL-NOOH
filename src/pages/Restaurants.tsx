@@ -74,7 +74,7 @@ export default function Restaurants({ lang }: RestaurantsProps) {
             </p>
             <div className="flex flex-wrap gap-4">
               <a
-                href="https://wa.me/971500000000?text=Hello%2C%20I%20run%20a%20restaurant%20and%20want%20to%20discuss%20bulk%20meat%20supply."
+                href="https://wa.me/923209792921?text=Hello%2C%20I%20run%20a%20restaurant%20and%20want%20to%20discuss%20bulk%20meat%20supply."
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center gap-2 px-6 py-4 bg-[#25D366] text-white font-semibold rounded-sm hover:bg-[#1fb855] transition"
@@ -226,7 +226,7 @@ export default function Restaurants({ lang }: RestaurantsProps) {
               : "Talk to our team now on WhatsApp, or use our AI voice agent to discuss your supply needs in your own language."}
           </p>
           <a
-            href="https://wa.me/971500000000?text=Hello%2C%20I%20run%20a%20restaurant%20and%20want%20to%20discuss%20bulk%20meat%20supply."
+            href="https://wa.me/923209792921?text=Hello%2C%20I%20run%20a%20restaurant%20and%20want%20to%20discuss%20bulk%20meat%20supply."
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center gap-2 px-8 py-4 bg-brand-gold-500 text-brand-green-950 font-semibold rounded-sm hover:bg-brand-gold-400 transition-all btn-shine"
